@@ -1,0 +1,49 @@
+.aboutMe{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+
+.myWork{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.picture{
+    height: 150px;
+    width: 150px;
+    text-align: center;
+}
+
+.content{
+    margin: 50px;
+    text-align: center;
+}
+
+.description{
+    display: inline;
+    width: 100%;
+    text-align: center;
+}
+
+button{
+    margin-bottom: 15px;
+    
+}
+
+#bio {
+    text-align: center;
+}
+
+#caseStudyBio{
+    padding: 0 0 10px 0;
+}
+
+.caseStudyImage{
+    height: 200px;
+    width: 200px;
+}
+
+.study{
+    padding-top: 15px
+}

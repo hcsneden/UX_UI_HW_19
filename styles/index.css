@@ -1,0 +1,128 @@
+body {
+  background-color: #cfd8d0;
+  margin: 0;
+  letter-spacing: 0.05em;
+}
+
+.content {
+  margin: 100px;
+  text-align: center;
+}
+
+.description {
+  width: 40%;
+  padding-top: 10%;
+  text-align: left;
+}
+
+.aboutMe {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.picture {
+  height: 400px;
+  width: 400px;
+  border-radius: 15px;
+}
+
+.navRight {
+  float: right;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 36px;
+  padding-top: 10px;
+}
+
+a {
+  padding: 10px;
+  padding-top: 20px;
+}
+
+nav {
+  background-color: #6d9373;
+  margin: none;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.name {
+  font-family: Poppins;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.primary {
+  background: #6d9373;
+}
+
+button {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  height: 40px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  border: none;
+  color: white;
+}
+
+.secondary {
+  background: #616161;
+}
+
+.caseStudies {
+  padding-top: 10%;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.myWork{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.caseStudyImage{
+    height: 300px;
+    width: 300px;
+}
+
+#bio{
+    text-align: left
+}
+
+#caseStudyBio{
+    margin: 2% 15% 5% 15%;
+}
+
+.study{
+    padding: 0 20px 0 20px
+}
+
+html {
+  scroll-behavior: smooth;
+}
